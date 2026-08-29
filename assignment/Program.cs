@@ -22,4 +22,7 @@ class Program
         Console.WriteLine(book.GetHashCode());
         Console.WriteLine(book.GetType());
         //2nd amswer
+        int pages = 464;
+        Console.WriteLine(pages);
+        //3rd answer
         
