@@ -42,4 +42,9 @@ class Program
             Console.WriteLine("Done");
         }
         //4th answer
-       
+        int pagesInt = 300;
+        double pagesDouble = pagesInt;
+        Console.WriteLine(pagesDouble);
+    }
+}
+        //5th answer
