@@ -25,4 +25,21 @@ class Program
         int pages = 464;
         Console.WriteLine(pages);
         //3rd answer
-        
+        int a = 10;
+        int b = 0;
+
+        try
+        {
+            int result = a / b;
+            Console.WriteLine(result);
+        }
+        catch (DivideByZeroException e)
+        {
+            Console.WriteLine("Cannot divide by zero");
+        }
+        finally
+        {
+            Console.WriteLine("Done");
+        }
+        //4th answer
+       
