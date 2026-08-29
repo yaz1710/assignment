@@ -16,6 +16,10 @@ class Program
 
         object obj = book;
         Console.WriteLine(obj);
-    }
-}
-//1st answer
+        //1st answer
+        Console.WriteLine(book.ToString());
+        Console.WriteLine(book.Equals(book));
+        Console.WriteLine(book.GetHashCode());
+        Console.WriteLine(book.GetType());
+        //2nd amswer
+        
